@@ -1,0 +1,688 @@
+
+
+@media only screen and (max-width: 1680px) {
+    .cm_header_left_block ul {
+        margin-left: 200px;
+    }
+
+    .cm_header_left_block ul li:nth-child(n+3) {
+        margin-left: 100px;
+    }
+
+    .cm_profile_name h2 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .cm_pr_input_col {
+        padding-left: 20px;
+    }
+
+    .cm_profile_col {
+        padding-right: 20px;
+    }
+
+    .cm_input_wrap label {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .cm_all_btns {
+        margin-left: 30px;
+    }
+
+    .cm_profile_name p {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .cm_profile_name {
+        margin-left: 12px;
+    }
+
+    .cm_profile_img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .cm_atm_car_img_block {
+        max-width: calc(50% - 7.5px);
+    }
+
+    .admin_cm_pro_img_inner_block p {
+        font-size: 13px;
+    }
+
+    .activites_icon_block {
+        margin-right: 20px;
+    }
+
+    .activites_dec_info h3 {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 1530px) {
+    .admin_cm_pro_img_inner_block p {
+        font-size: 12px;
+    }
+
+    .admin_list_block {
+        padding: 7.5px 15px;
+    }
+
+    .cm_padding_wrap {
+        padding: 20px 30px;
+    }
+
+    .cm_atm_card_details_block {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cm_atm_car_img_block+.cm_atm_car_img_block {
+        margin-left: 0;
+    }
+
+    .cm_atm_car_img_block {
+        max-width: 270px;
+    }
+
+}
+
+@media only screen and (max-width: 1440px) {
+    .cm_profile_if {
+        flex-wrap: wrap;
+    }
+
+    .cm_profile_col,
+    .cm_pr_input_col,
+    .cm_all_btns {
+        width: 100%;
+    }
+
+    .cm_pr_input_col {
+        padding: 20px 0;
+    }
+
+    .cm_all_btns {
+        display: flex;
+        margin-left: 0px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .cm_all_btns .cm_profile_btn {
+        min-width: unset;
+        width: unset;
+        padding: 5px 15px;
+    }
+
+    .cm_profile_btn+.cm_profile_btn {
+        margin: 0;
+        margin-left: 15px;
+    }
+
+    .cm_input_wrap .MuiInputBase-input,
+    .cm_input_wrap:nth-child(even) .MuiInputBase-input {
+        max-width: 100%;
+    }
+
+    .cm_profile_all_wrap .row>.col-md-9 {
+        flex: 0 0 65%;
+        max-width: 65%;
+    }
+
+    .cm_profile_all_wrap .row>.col-md-3 {
+        flex: 0 0 35%;
+        max-width: 35%;
+    }
+
+    .activites_wrap,
+    .cm_bank_car_detail,
+    .cm_billing_add_wrap,
+    .famaily_info__block {
+        padding: 15px 20px;
+    }
+
+    .true_btn_cm,
+    .close_btn_cm {
+        min-width: 25px;
+        height: 25px;
+    }
+
+    .cm_blling_add_info_wrap .row>div>.row>div {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .cm_blling_add_info_wrap .row>div>.row>div+div {
+        margin-top: 15px;
+    }
+
+    .famaily_info__block {
+        max-height: 540px;
+    }
+
+    .cm_common_title_wrap h2 {
+        font-size: 24px;
+    }
+
+    .cm_header_left_block ul {
+        margin-left: 130px;
+    }
+
+    .cm_header_left_block ul li:nth-child(n+3) {
+        margin-left: 80px;
+    }
+}
+
+@media only screen and (max-width: 1360px) {
+    .bank_details_info_block>.row>div {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .bank_details_info_block>.row>div+div {
+        margin-top: 20px;
+    }
+
+    .cm_btn {
+        max-width: 130px;
+        height: 35px;
+    }
+
+    .cm_success_message {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .cm_padding_wrap {
+        padding: 15px 20px;
+    }
+
+    .cm_profile_all_wrap .row>.col-md-3 {
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+
+    .cm_profile_all_wrap .row>.col-md-9 {
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+
+    .cm_input_wrap:nth-child(even) {
+        margin-left: 20px;
+    }
+
+    .cm_input_wrap {
+        width: calc(50% - 10px);
+    }
+
+    .cm_header_wrapper {
+        padding: 10px 20px;
+    }
+    .cm_header_left_block ul {
+        margin-left: 70px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .cm_header_left_block ul li:nth-child(n+3) {
+        margin-left: 60px;
+    }
+    .cm_header_left_block ul {
+        margin-left: 60px;
+    }
+    .cm_success_message {
+        display: none;
+    }
+
+    .cm_profile_if_wrap .famaily_info__block_first,
+    .bank_details_info_block .recevied_block {
+        display: block;
+    }
+
+    .famaily_inforamtions {
+        display: none;
+    }
+
+    .cm_profile_all_wrap .row>.col-md-9 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .cm_profile_if_wrap {
+        display: flex;
+    }
+
+    .cm_profile_if_wrap .famaily_info__block.famaily_info__block_first {
+        max-height: 370px;
+        min-width: 370px;
+        width: 100%;
+        margin-left: 15px;
+    }
+
+    .cm_input_wrap {
+        width: calc(33.33% - 7px);
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cm_input_wrap:nth-child(n+3) {
+        margin-top: unset;
+        margin-left: 0px;
+    }
+
+    .cm_input_wrap:nth-child(4) {
+        display: none;
+    }
+
+    .cm_input_wrap:nth-child(5),
+    .cm_input_wrap:nth-child(6) {
+        width: calc(50% - 10px);
+    }
+
+    .cm_input_wrap .MuiFormControl-root {
+        flex-grow: 1;
+        width: 100%;
+    }
+
+    .cm_input_wrap:nth-child(even) {
+        margin-left: 0;
+    }
+
+    .cm_input_wrap:nth-child(n+2) {
+        margin-left: 10px;
+    }
+
+    .cm_input_wrap:nth-child(5) {
+        margin-left: 0px;
+    }
+
+    .cm_input_wrap:nth-child(n+4) {
+        margin-top: 10px;
+    }
+
+    .bank_details_info_block>.row>div:nth-child(1),
+    .bank_details_info_block>.row>div:nth-child(2) {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bank_details_info_block .cm_bank_car_detail,
+    .bank_details_info_block .cm_billing_add_wrap,
+    .activites_wrap,
+    .famaily_info__block.recevied_block {
+        flex: 0 0 calc(50% - 7.5px);
+        max-width: calc(50% - 7.5px);
+    }
+
+    .cm_billing_add_wrap {
+        margin-top: 0px;
+    }
+
+    .bank_details_info_block>.row>div+div {
+        margin-top: 15px;
+    }
+
+    .famaily_info__block,
+    .activites_block{
+        max-height: 500px;
+    }
+
+    .cm_input_wrap .MuiInputBase-input {
+        white-space: nowrap;
+        padding: 8px 10px;
+    }
+
+    .cm_profile_if,
+    .activites_wrap,
+    .cm_bank_car_detail,
+    .cm_billing_add_wrap,
+    .famaily_info__block {
+        padding: 15px;
+    }
+    .cm_profile_btn{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .cm_header_left_block ul li:nth-child(n+3) {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    #toggle_bar {
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 15px;
+    }
+
+    #toggle_bar div {
+        width: 100%;
+        height: 3px;
+        background: #F8991F;
+        margin: 0 auto;
+        transition: all .5s ease 0s;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+
+    #toggle_bar div:nth-child(2) {
+        margin: 5px auto;
+    }
+    body[side-menu="side_bar_menu"]{
+        overflow: hidden;
+    }
+    body[side-menu="side_bar_menu"] #toggle_bar .two {
+        opacity: 0;
+    }
+    body[side-menu="side_bar_menu"] #toggle_bar {
+        display: none;
+    }
+    body[side-menu="side_bar_menu"] #toggle_bar.mobile_toggle {
+        display: block;
+        z-index: 10;
+        width: 30px;
+        height: 30px;
+        border-radius: 3px;
+        background-color: #fff;
+        margin-right: 0;
+    }
+    #toggle_bar.mobile_toggle div {
+        background-color: #999696;
+        width: 70%;
+        height: 2px;
+        margin: 6px auto;
+    }
+
+    body[side-menu="side_bar_menu"] #toggle_bar .three {
+        -webkit-transform: rotate(-45deg) translate(6px, -7px);
+        transform: rotate(-45deg) translate(6px, -7px);
+    }
+
+    body[side-menu="side_bar_menu"] #toggle_bar .one {
+        -webkit-transform: rotate(45deg) translate(5px, 5px);
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .cm_common_title_wrap h2 {
+        font-size: 22px;
+    }
+
+    .cm_btn {
+        max-width: 120px;
+        font-size: 12px;
+    }
+
+    .cm_profile_if_wrap {
+        flex-direction: column-reverse;
+    }
+
+    .cm_profile_if_wrap .famaily_info__block.famaily_info__block_first {
+        margin-left: 0px;
+        height: 369px;
+        min-width: 100%;
+    }
+
+    .cm_profile_if {
+        margin-top: 15px;
+    }
+
+    .profile_tab_block {
+        display: flex;
+        padding: 15px 0;
+    }
+
+    .profile_tab_block button {
+        flex-grow: 1;
+        background-color: unset;
+        font-size: 14px;
+        color: #818181;
+        padding: 10px 0;
+        border-bottom: 3px solid #cecece;
+        font-weight: 600;
+        position: relative;
+    }
+
+    body[tab-menu="profile"] .profile_tab_block button:nth-child(1),
+    body[tab-menu="wallet"] .profile_tab_block button:nth-child(2),
+    body[tab-menu="activities"] .profile_tab_block button:nth-child(3),
+    body[tab-menu="invitations"] .profile_tab_block button:nth-child(4) {
+        border-bottom: 3px solid #F8991F;
+        color: #F8991F;
+    }
+
+    .bank_details_info_block>.row>div:nth-child(1),
+    .bank_details_info_block>.row>div:nth-child(2) {
+        flex-direction: column;
+    }
+
+    .bank_details_info_block .cm_bank_car_detail,
+    .bank_details_info_block .cm_billing_add_wrap,
+    .activites_block,
+    .famaily_info__block.recevied_block {
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: unset;
+        max-width: 100%;
+    }
+
+    .cm_billing_add_wrap,
+    .cm_profile_if_wrap,
+    .cm_bank_car_detail,
+    .activites_block,
+    .famaily_info__block.recevied_block {
+        display: none;
+    }
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+
+    .animated {
+        animation-duration: 1s;
+        animation-fill-mode: both;
+        -webkit-animation-duration: 1s;
+        -webkit-animation-fill-mode: both
+    }
+
+    .animatedFadeInUp {
+        opacity: 0
+    }
+
+    body[tab-menu="profile"] .cm_profile_if_wrap,
+    body[tab-menu="wallet"] .cm_bank_car_detail,
+    body[tab-menu="activities"] .activites_block,
+    body[tab-menu="invitations"] .famaily_info__block.recevied_block {
+        opacity: 1;
+        animation-name: fadeInUp;
+        -webkit-animation-name: fadeInUp;
+        display: flex;
+        flex-direction: column;
+    }
+
+    body[tab-menu="profile"] .cm_profile_if_wrap {
+        flex-direction: column-reverse;
+    }
+
+    .cm_header_left_block > ul {
+        position: fixed;
+        width: 100%;
+        height: calc(100vh + 10px);
+        background-color: #232E3E;
+        z-index: 5;
+        left: 0px;
+        top: 0px;
+        margin-left: 0;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 80px 40px 40px;
+        transform: translateX(-100%);
+        -webkit-transition: all 0.5s ease 0s;
+        -moz-transition: all 0.5s ease 0s;
+        -ms-transition: all 0.5s ease 0s;
+        -o-transition: all 0.5s ease 0s;
+        transition: all 0.5s ease 0s;
+    }
+    .cm_header_left_block ul li+li {
+        margin-left: 0;
+    }
+
+    body[side-menu="side_bar_menu"] .cm_header_left_block ul {
+        transform: translateX(0%);
+    }
+
+    .cm_header_l_inner {
+        position: relative;
+        z-index: 10;
+    }
+    .menu_profile_block{
+        display: block;
+        margin-bottom: 30px;
+    }
+    .menu_profile_block .cm_profile_name h2,
+    .menu_profile_block .cm_profile_name p span{
+        color: #fff;
+      
+    }
+    .menu_profile_block .cm_profile_name p span{
+        font-size: 12px;
+    }
+    .menu_profile_block .cm_profile_name h2{
+        font-weight: 500;
+        font-size: 26px;
+    }
+    .menu_profile_block .cm_profile_name img{
+        filter: invert(1);
+    }
+    .menu_profile_block .cm_profile_col {
+        border-right: 0;
+        padding-right: 0;
+    }
+    .admin_list_block {
+        padding: 10px 15px;
+        height: 50px;
+    }
+    .cm_input_wrap {
+        width: calc(50% - 7px);
+    }
+    .cm_input_wrap:nth-child(n+2) {
+        margin-left: 0;
+    }
+    .cm_input_wrap:nth-child(n+3) {
+        margin-top: 10px;
+    }
+    .cm_pr_input_col{
+        justify-content: space-between;
+    }
+    .cm_header_left_block ul li,
+    .cm_header_left_block ul li .inner_menu_block ul li a{
+        width: 100%;
+        display: block;
+    }
+    .cm_header_left_block ul li .inner_menu_block ul li a{
+        padding: 13px 23px 13px 38px;
+    }
+    .cm_header_left_block > ul li > a{
+        display: block;
+        font-size: 16px;
+        padding: 14px 0;
+    }
+    .cm_header_left_block > ul > li:nth-child(2) a{
+        color: #F8991F;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .cm_header_left_block > ul > li:nth-child(2) a::after{
+        content: '';
+        position: absolute;
+        top: 16px;
+        right: 0;
+        width: 20px;
+        height: 20px;
+        background-image: url(../img/up_arrow_ic.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .inner_menu_block {
+        visibility: visible;
+        opacity: 1;
+        position: unset;
+        width: 100%;
+        background-color: unset;
+        box-shadow: unset;
+    }
+    .cm_header_left_block ul li .inner_menu_block ul li a{
+        color: #fff;
+        position: relative;
+        font-weight: 400;
+        text-transform: unset;
+        font-size: 16px;
+    }
+    .cm_header_left_block ul li .inner_menu_block ul li:first-child a::after{
+        height: 80%;
+        top: -20%;
+    }
+    .cm_header_left_block ul li .inner_menu_block ul li a::after {
+        content: '';
+        width: 1px;
+        height: 100%;
+        top: -50%;
+        left: 10px;
+        position: absolute;
+        background-color: #F8991F;
+    }
+    .cm_header_left_block ul li .inner_menu_block ul li a::before {
+        content: '';
+        width: 20px;
+        height: 1px;
+        top: 50%;
+        left: 10px;
+        position: absolute;
+        background-color: #F8991F;
+    }
+    .admin_wrapper_block{
+        padding-right: 0;
+    }
+    .moblie_logout, .more_btn {
+        display: block;
+    }
+    .cm_title_and_view_hold .cm_btn {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 575px) {
+    .cm_all_btns {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .cm_profile_btn+.cm_profile_btn {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .cm_padding_wrap {
+        padding: 10px 10px;
+    }
+
+}
+@media only screen and (max-width: 367px) {
+.cm_header_left_block > ul{
+    padding: 80px 20px 40px;
+}
+}
